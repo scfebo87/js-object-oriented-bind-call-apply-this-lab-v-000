@@ -14,4 +14,4 @@ function setThisWithApply(fn, thisvalue, arg) {
 }
 
 function returnNewFunctionOf(fn, thisValue) { 
-  
+  const copy = fn.bind
